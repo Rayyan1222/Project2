@@ -1,7 +1,7 @@
 body {
-    background: linear-gradient(110deg, #6279a5, #edf1f2, #6b86bb);
+    background: linear-gradient(110deg, #ff6f61, #fdbb2d, #1f2f3d);
     font-family: 'Arial', sans-serif;
-    color: #333;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -10,6 +10,10 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
+}
+
+header h1 {
+    color: #ffd700; /* Yellow color for headers */
 }
 
 nav ul {
@@ -59,4 +63,5 @@ img {
 img:hover {
     transform: scale(1.05);
 }
+
 
