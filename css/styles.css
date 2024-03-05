@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    background: linear-gradient(110deg, #6279a5, #edf1f2, #6b86bb);
+    background: rgb(181, 137, 214);
     font-family: 'Arial', sans-serif;
     color: #333;
     margin: 0;
@@ -17,6 +19,10 @@ h1, h2, h3 {
 
 .resume p, .resume ul li {
   text-align: left;
+}
+
+h1, h2, h3 {
+  color: rgb(128, 0, 32);
 }
 
 header {
