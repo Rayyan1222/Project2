@@ -1,67 +1,111 @@
+/* General styles */
 body {
-    background: linear-gradient(110deg, #ff6f61, #fdbb2d, #1f2f3d);
-    font-family: 'Arial', sans-serif;
-    color: #fff;
+    background-color: rgb(173, 216, 230); /* Light blue background */
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Header styles */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #4CAF50; /* Green header */
+    color: #fff; /* White text */
+    padding: 20px;
 }
 
-header h1 {
-    color: #ffd700; /* Yellow color for headers */
+/* Navigation styles */
+nav {
+    background-color: #333; /* Dark background for navigation */
+    padding: 10px 0;
+    text-align: center;
 }
 
 nav ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
-    text-align: center;
 }
 
-nav ul li {
+nav li {
     display: inline;
     margin-right: 20px;
 }
 
-nav ul li a {
-    color: #fff;
+nav a {
+    color: #fff; /* White link color */
     text-decoration: none;
 }
 
-nav ul li a:hover {
-    color: #ffd700;
+nav a:hover {
+    color: #ffd700; /* Yellow on hover */
 }
 
-.section {
-    background-color: #fff;
+/* Resume styles */
+#resume {
+    background-color: #f0f0f0; /* Light gray background */
     padding: 20px;
+}
+
+.resume-heading {
+    color: #4CAF50; /* Green heading color */
+    margin-bottom: 10px;
+}
+
+.resume-info {
+    margin-bottom: 15px;
+}
+
+.resume-info h2 {
+    color: #333; /* Dark heading color */
+}
+
+.resume-info p {
+    margin: 5px 0;
+}
+
+.resume-info img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Projects styles */
+#projects {
+    background-color: #ffd700; /* Yellow background for projects */
+    padding: 20px;
+}
+
+.project-heading {
+    color: #4CAF50; /* Green heading color */
+    margin-bottom: 10px;
+}
+
+.project-info {
+    margin-bottom: 15px;
+}
+
+.project-info h3 {
+    color: #333; /* Dark heading color */
+}
+
+.project-info p {
+    margin: 5px 0;
+}
+
+.project-info img {
+    max-width: 200px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
-    max-width: 800px;
+    margin-right: 10px;
 }
 
-h1, h2, h3 {
-    color: #333;
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark footer */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
 }
 
-img {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-img:hover {
-    transform: scale(1.05);
-}
 
 
