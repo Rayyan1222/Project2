@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(110deg, #6279a5, #edf1f2, #6b86bb);
+  background: linear-gradient(110deg, ##734b6d);
 }
 
 h1, h2 {
@@ -47,7 +47,7 @@ nav ul {
   height: 50px;
 }
 
-.white {
+.Resume {
   margin: 20px;
   background-color: #fff;
   padding: 20px;
@@ -55,7 +55,7 @@ nav ul {
   box-shadow: 0px 10px 10px rgba(0, 0, 0.0, 0.2);
 }
 
-.blue {
+.Brady {
   margin: 20px;
   background: linear-gradient(110deg, #577abc, #1d96c6, #6580b7);
   padding: 20px;
@@ -63,7 +63,7 @@ nav ul {
   box-shadow: 0px 10px 10px rgba(0, 0, 0.0, 0.2);
 }
 
-.blue2 {
+.Animals {
   margin: 20px;
   background: linear-gradient(110deg, #577abc, #1d96c6, #6580b7);
   padding: 20px;
@@ -71,7 +71,7 @@ nav ul {
   box-shadow: 0px 10px 10px rgba(0, 0, 0.0, 0.2);
 }
 
-#mecca {
+#tombrady1 {
   border-radius: 4px;
   padding: 2px;
   width: 31.25em;
@@ -82,7 +82,7 @@ nav ul {
   margin: 0 auto;
 }
 
-#pilgrims {
+#tombrady2 {
   border-radius: 4px;
   padding: 2px;
   width: 43.75em;
@@ -93,7 +93,7 @@ nav ul {
   margin: 0 auto;
 }
 
-iframe {
+#lion, #goldfish {
   border-radius: 8px;
   padding: .1em;
   width: 25em;
@@ -104,50 +104,12 @@ iframe {
   margin: 0 auto;
 }
 
-#mecca:hover {
-  transform: scale(1.1);
-}
-
-#pilgrims:hover {
-  transform: scale(1.1);
-}
-
-iframe:hover {
+#tombrady1:hover, #tombrady2:hover, #lion:hover, #goldfish:hover {
   transform: scale(1.1);
 }
 
 p {
   text-align: center;
-}
-
-#senn {
-  border-radius: 4px;
-  padding: 2px;
-  width: 31.25em;
-  height: 18.75em;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s;
-  display: block;
-  margin: 0 auto;
-}
-
-#logo {
-  border-radius: 4px;
-  padding: 2px;
-  width: 36.25em;
-  height: 25em;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s;
-  display: block;
-  margin: 0 auto;
-}
-
-#senn:hover {
-  transform: scale(1.1);
-}
-
-#logo:hover {
-  transform: scale(1.1);
 }
 
 
