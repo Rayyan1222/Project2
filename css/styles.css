@@ -1,29 +1,22 @@
-/* Imported font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 body {
-    background: rgb(181, 137, 214);
-    font-family: 'Roboto', sans-serif; /* Imported font */
+    background: linear-gradient(110deg, #6279a5, #edf1f2, #6b86bb);
+    font-family: 'Arial', sans-serif;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 h1, h2, h3 {
-    font-family: 'Trebuchet MS', Arial, sans-serif; /* Browser native font */
-    text-align: center;
-}
-
-h1, h2, h3 {
-  color: rgb(128, 0, 0);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
 }
 
 .resume h1, .resume h2 {
-    text-align: left;
+  text-align: left;
 }
 
 .resume p, .resume ul li {
-    text-align: left;
+  text-align: left;
 }
 
 header {
@@ -39,9 +32,9 @@ nav ul {
 }
 
 li, p {
-    list-style-type: none;
-    font-family: 'Trebuchet MS', Arial, sans-serif; /* Browser native font */
-    text-align: center;
+  list-style-type: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
 }
 
 nav ul li {
@@ -58,7 +51,7 @@ nav ul li a:hover {
     color: #ffd700;
 }
 
-.resume{
+.resume, .Brady, .animals {
     background-color: #fff;
     padding: 2%;
     border-radius: 1em;
@@ -66,26 +59,7 @@ nav ul li a:hover {
     margin: 2% auto;
     max-width: 800px;
 }
-
-.Brady{
-background-color: #fff;
-    padding: 2%;
-    border-radius: 1em;
-    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
-    margin: 2% auto;
-    max-width: 800px;
-}
-
- .animals {
-    background-color: #fff;
-    padding: 2%;
-    border-radius: 1em;
-    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
-    margin: 2% auto;
-    max-width: 800px;
-}
-
-#tombrady1 {
+img {
     display: block;
     margin: 2% auto;
     max-width: 100%;
@@ -96,53 +70,8 @@ background-color: #fff;
     transition: transform 0.3s ease;
 }
 
-#tombrady2 {
-    display: block;
-    margin: 2% auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 1em;
-    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-#lion {
-    display: block;
-    margin: 2% auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 1em;
-    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-#goldfish {
-    display: block;
-    margin: 2% auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 1em;
-    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-#tombrady1:hover {
-  transform: scale(1.1);
-}
-
-#tombrady2:hover {
-  transform: scale(1.1);
-}
-
-#lion:hover {
-  transform: scale(1.1);
-}
-
-#goldfish:hover {
-  transform: scale(1.1);
+img:hover {
+    transform: scale(1.05);
 }
 
 iframe {
@@ -150,4 +79,5 @@ iframe {
     margin: 0 auto;
     width: 90%;
 }
+
 
