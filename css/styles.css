@@ -1,5 +1,12 @@
 body {
-  background: linear-gradient(110deg, ##734b6d);
+  background: linear-gradient(110deg, #734b6d);
+}
+
+header {
+  background-color: #333; /* Example color */
+  color: white; /* Example color */
+  padding: 10px 0; /* Adjust as needed */
+  text-align: center;
 }
 
 h1, h2 {
@@ -47,53 +54,19 @@ nav ul {
   height: 50px;
 }
 
-.Resume {
+.Resume, .Brady, .Animals {
   margin: 20px;
-  background-color: #fff;
+  background: #fff;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0.0, 0.2);
 }
 
-.Brady {
-  margin: 20px;
+.Brady, .Animals {
   background: linear-gradient(110deg, #577abc, #1d96c6, #6580b7);
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0.0, 0.2);
 }
 
-.Animals {
-  margin: 20px;
-  background: linear-gradient(110deg, #577abc, #1d96c6, #6580b7);
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0.0, 0.2);
-}
-
-#tombrady1 {
-  border-radius: 4px;
-  padding: 2px;
-  width: 31.25em;
-  height: 18.75em;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s;
-  display: block;
-  margin: 0 auto;
-}
-
-#tombrady2 {
-  border-radius: 4px;
-  padding: 2px;
-  width: 43.75em;
-  height: 25em;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s;
-  display: block;
-  margin: 0 auto;
-}
-
-#lion, #goldfish {
+#tombrady1, #tombrady2, #lion, #goldfish {
   border-radius: 8px;
   padding: .1em;
   width: 25em;
