@@ -129,8 +129,20 @@ background-color: #fff;
     transition: transform 0.3s ease;
 }
 
-img:hover {
-    transform: scale(1.05);
+#tombrady1:hover {
+  transform: scale(1.1);
+}
+
+#tombrady2:hover {
+  transform: scale(1.1);
+}
+
+#lion:hover {
+  transform: scale(1.1);
+}
+
+#goldfish:hover {
+  transform: scale(1.1);
 }
 
 iframe {
