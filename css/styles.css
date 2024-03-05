@@ -1,7 +1,7 @@
 /* General styles */
 body {
-    background-color: rgb(173, 216, 230); /* Light blue background */
-    color: #333; /* Dark text color */
+    background: linear-gradient(110deg, #4e4376, #2b5876);
+    color: #fff;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,15 +9,15 @@ body {
 
 /* Header styles */
 header {
-    background-color: #4CAF50; /* Green header */
-    color: #fff; /* White text */
+    background-color: #333;
+    color: #fff;
     padding: 20px;
 }
 
 /* Navigation styles */
 nav {
-    background-color: #333; /* Dark background for navigation */
-    padding: 10px 0;
+    background-color: #333;
+    padding: 1em 0;
     text-align: center;
 }
 
@@ -29,83 +29,90 @@ nav ul {
 
 nav li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 2em;
 }
 
 nav a {
-    color: #fff; /* White link color */
+    color: #fff;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #ffd700; /* Yellow on hover */
+    color: #ffd700;
 }
 
-/* Resume styles */
-#resume {
-    background-color: #f0f0f0; /* Light gray background */
-    padding: 20px;
-}
-
-.resume-heading {
-    color: #4CAF50; /* Green heading color */
-    margin-bottom: 10px;
-}
-
-.resume-info {
-    margin-bottom: 15px;
-}
-
-.resume-info h2 {
-    color: #333; /* Dark heading color */
-}
-
-.resume-info p {
-    margin: 5px 0;
-}
-
-.resume-info img {
-    max-width: 100px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-/* Projects styles */
-#projects {
-    background-color: #ffd700; /* Yellow background for projects */
-    padding: 20px;
-}
-
-.project-heading {
-    color: #4CAF50; /* Green heading color */
-    margin-bottom: 10px;
-}
-
-.project-info {
-    margin-bottom: 15px;
-}
-
-.project-info h3 {
-    color: #333; /* Dark heading color */
-}
-
-.project-info p {
-    margin: 5px 0;
-}
-
-.project-info img {
-    max-width: 200px;
+/* Section styles */
+.section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2em;
+    margin: 2em auto;
     border-radius: 10px;
-    margin-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+.section-heading {
+    color: #ff7e67; /* Unique heading color */
+    font-family: 'Trebuchet MS', sans-serif; /* Unique font */
+    margin-bottom: 1em;
+}
+
+.section-content {
+    margin-bottom: 1.5em;
+}
+
+.section-content h2 {
+    color: #333;
+}
+
+.section-content p {
+    margin: 0.5em 0;
+}
+
+.section-content img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-right: 0.5em;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    cursor: pointer; /* Make the image clickable */
+}
+
+.section-content img:hover {
+    transform: scale(1.05); /* Add hover effect */
 }
 
 /* Footer styles */
 footer {
-    background-color: #333; /* Dark footer */
-    color: #fff; /* White text */
-    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 2em;
     text-align: center;
 }
 
+/* Additional styles */
+.section-content {
+    text-align: justify; /* Justify text */
+}
+.section-content h3 {
+    color: #ff7e67; 
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-bottom: 0.8em;
+}
 
+.section-content ul {
+    list-style: none;
+    padding: 0;
+}
 
+.section-content ul li {
+    margin-bottom: 0.5em;
+}
+
+.section-content a {
+    color: #4CAF50; 
+}
+
+.section-content a:hover {
+    color: #ffd700; 
+}
