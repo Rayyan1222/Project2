@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
   text-align: center;
 }
 
@@ -39,7 +39,7 @@ nav ul {
 
 li, p {
   list-style-type: none;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
   text-align: center;
 }
 
