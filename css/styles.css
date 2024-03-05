@@ -40,15 +40,6 @@ nav ul li a:hover {
     margin: 20px auto;
     max-width: 800px;
 }
-
-.resume h1, .Brady h1, .animals h1 {
-    color: #333;
-    border: 1px solid #333; /* Add border */
-    padding: 5px; /* Add padding for better spacing */
-    display: inline-block; /* Make sure the border wraps around the text */
-    border-radius: 5px; /* Add border radius for rounded corners */
-}
-
 img {
     display: block;
     margin: 20px auto;
