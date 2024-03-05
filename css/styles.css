@@ -1,23 +1,23 @@
 /* General styles */
 body {
-    background: linear-gradient(110deg, #ff7675, #fd79a8, #636e72); /* Background gradient */
-    font-family: 'Roboto', sans-serif; /* Google Font Roboto */
-    color: #fff; /* White text */
+    background: linear-gradient(110deg, #ff7675, #fd79a8, #636e72);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
 
 /* Header styles */
 header {
-    background-color: #2d3436; /* Dark gray header */
-    color: #fff; /* White text */
-    padding: 20px;
+    background-color: #2d3436;
+    color: #fff;
+    padding: 2rem 5rem;
 }
 
 /* Navigation styles */
 nav {
-    background-color: #333; /* Dark background for navigation */
-    padding: 10px 0;
+    background-color: #333;
+    padding: 1rem 0;
     text-align: center;
 }
 
@@ -29,43 +29,177 @@ nav ul {
 
 nav li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 
 nav a {
-    color: #fff; /* White link color */
+    color: #fff;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #fdcb6e; /* Yellow on hover */
+    color: #fdcb6e;
 }
 
 /* Placeholder styles */
 .blue {
-    background: linear-gradient(110deg, #48dbfb, #1dd1a1, #54a0ff); /* Gradient background */
-    color: #2d3436; /* Dark text */
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-    margin: 20px auto;
-    width: 80%; /* Responsive width */
+    background: linear-gradient(110deg, #48dbfb, #1dd1a1, #54a0ff);
+    color: #2d3436;
+    padding: 2rem 5rem;
+    border-radius: 2rem;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2);
+    margin: 2rem auto;
+    width: 80%;
+    text-align: center;
 }
 
 .blue:hover {
-    transform: scale(1.05); /* Scale effect on hover */
+    transform: scale(1.05);
+}
+
+.placeholder {
+    text-align: center;
 }
 
 .placeholder img {
-    max-width: 100%; /* Responsive image */
-    display: block;
-    margin: 0 auto; /* Center the image horizontally */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
-    cursor: pointer; /* Pointer cursor */
-    transition: transform 0.3s ease; /* Smooth transition */
+    max-width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 2rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 .placeholder img:hover {
-    transform: scale(1.05); /* Scale effect on hover */
+    transform: scale(1.05);
 }
+
+/* Additional styling */
+.container {
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 2rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    background-color: #2d3436;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0 0 2rem 2rem;
+}
+
+/* Additional section styles */
+.section {
+    padding: 2rem;
+    margin: 2rem auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 2rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+}
+
+.section h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section p {
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #fdcb6e;
+    color: #333;
+    text-decoration: none;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff7675;
+}
+
+/* Form styles */
+.form {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.form input[type="text"],
+.form textarea {
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+}
+
+.form textarea {
+    height: 10rem;
+}
+
+.form input[type="submit"] {
+    padding: 1rem 2rem;
+    background-color: #48dbfb;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #1dd1a1;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    nav li {
+        margin-right: 1rem;
+    }
+
+    .blue {
+        padding: 1rem;
+    }
+
+    .section {
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+
+    .section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .section p {
+        font-size: 1rem;
+    }
+
+    .form input[type="text"],
+    .form textarea {
+        width: 100%;
+    }
+}
+
+
+
