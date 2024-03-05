@@ -32,7 +32,7 @@ nav ul li a:hover {
     color: #ffd700;
 }
 
-.resume, .Brady, .Animals {
+.resume, .Brady, .animals {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -41,7 +41,7 @@ nav ul li a:hover {
     max-width: 800px;
 }
 
-.resume h1, .Brady h1, .Animals h1 {
+.resume h1, .Brady h1, .animals h1 {
     color: #333;
     border: 1px solid #333; /* Add border */
     padding: 5px; /* Add padding for better spacing */
