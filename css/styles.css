@@ -1,92 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Trebuchet+MS&display=swap');
-
 body {
-  background: linear-gradient(110deg, #734b6d);
-  font-family: 'Trebuchet MS', sans-serif; /* Imported font */
+    background: linear-gradient(110deg, #6279a5, #edf1f2, #6b86bb);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  background-color: #333; /* Example color */
-  color: white; /* Example color */
-  padding: 1em 0; /* Adjust as needed */
-  text-align: center;
-}
-
-h1, h2 {
-  text-align: center;
-}
-
-.resume h1, .resume h2 {
-  text-align: left;
-}
-
-.resume p, .resume ul li {
-  text-align: left;
-}
-
-li, p {
-  font-size: 1em;
-  text-align: center;
-}
-
-nav ul li {
-  background: linear-gradient(110deg, #577abc, #1d96c6, #466ab1);
-  border-radius: 1em;
-}
-
-nav ul li a {
-  padding: 0.5em 1em;
-  color: white;
-}
-
-nav ul li a:hover {
-  background-color: white;
-  color: black;
-  border-radius: 1em;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
 }
 
 nav ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 5%;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
 }
 
-/* Section Styles */
-.Resume, .Animals {
-  margin: 2%;
-  background: #fff;
-  padding: 2%;
-  border-radius: 0.5em;
-  box-shadow: 0px 0.3em 0.3em rgba(0, 0, 0, 0.2);
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-.Brady {
-  background: none;
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
 
-/* Image Container Styles */
-#tombrady1, #tombrady2, #lion, #goldfish {
-  border-radius: 0.5em;
-  padding: 0.1em;
-  width: 25%;
-  max-width: 20em;
-  height: auto;
-  box-shadow: 0 0.3em 0.3em 0 rgba(0, 0, 0, 0.4), 0 0.4em 1.2em 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s;
-  display: block;
-  margin: 0 auto;
+nav ul li a:hover {
+    color: #ffd700;
 }
 
-#tombrady1:hover, #tombrady2:hover, #lion:hover, #goldfish:hover {
-  transform: scale(1.1);
+.section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
 }
 
-p {
-  text-align: center;
+h1, h2, h3 {
+    color: #333;
 }
 
-/* Accolades text positioning */
-#bradyAccolades {
-  text-align: left;
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
 }
