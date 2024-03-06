@@ -57,6 +57,13 @@ nav ul li a:hover {
   color: #ffd700;
 }
 
+.fixed-width {
+    background-color: rgb(238, 238, 238);
+    margin: auto;
+    max-width: 400px;
+    height: 100vh;
+}
+
 .resume {
   background-color: #fff;
   padding: 2%;
