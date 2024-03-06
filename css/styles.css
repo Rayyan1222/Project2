@@ -59,9 +59,7 @@ nav ul li a:hover {
 
 /* Define a class with fixed width */
 .fixed-width {
-    width: 300px; /* Adjust this value to your desired width */
-    /* You can also add other styles as needed */
-    border: 1px solid #000;
+    width: 300px; 
     padding: 10px;
 }
 
