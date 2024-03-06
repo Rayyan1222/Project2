@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    background: rgb(181, 137, 214);
-    font-family: 'Arial', sans-serif;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  background: rgb(181, 137, 214);
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3 {
@@ -26,15 +26,15 @@ h1, h2, h3 {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em 0;
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
 }
 
 li, p {
@@ -44,26 +44,26 @@ li, p {
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 2%;
+  display: inline;
+  margin-right: 2%;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 nav ul li a:hover {
-    color: #ffd700;
+  color: #ffd700;
 }
 
 .resume {
-    background-color: #fff;
-    padding: 2%;
-    border-radius: 1em;
-    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
-    margin: 2% auto;
-    max-width: 800px;
+  background-color: #fff;
+  padding: 2%;
+  border-radius: 1em;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  margin: 2% auto;
+  max-width: 800px;
 }
 
 .Brady{
@@ -74,13 +74,14 @@ nav ul li a:hover {
     margin: 2% auto;
     max-width: 800px;
 }
-    .animals {
-    background-color: #fff;
-    padding: 2%;
-    border-radius: 1em;
-    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
-    margin: 2% auto;
-    max-width: 800px;
+
+.animals {
+  background-color: #fff;
+  padding: 2%;
+  border-radius: 1em;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  margin: 2% auto;
+  max-width: 800px;
 }
 
 img {
@@ -99,9 +100,9 @@ img:hover {
 }
 
 iframe {
-    display: block;
-    margin: 0 auto;
-    width: 90%;
+  display: block;
+  margin: 0 auto;
+  width: 90%;
 }
 
 
