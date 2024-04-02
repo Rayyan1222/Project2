@@ -92,7 +92,6 @@ nav ul li a:hover {
 
 img {
     display: block;
-    float: right;
     margin: 2% auto;
     max-width: 100%;
     height: auto;
@@ -111,4 +110,5 @@ iframe {
   margin: 0 auto;
   width: 90%;
 }
+
 
