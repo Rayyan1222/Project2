@@ -2,7 +2,7 @@
 
 body {
   background: rgb(181, 137, 214);
-  font-family: 'Arial', sans-serif;
+  font-family: 'Roboto', sans-serif; /* Changed to Roboto */
   color: #333;
   margin: 0;
   padding: 20px;
@@ -58,51 +58,43 @@ nav ul li a:hover {
 }
 
 .fixed-width {
-    width: 300px; 
-    padding: 10px;
+  width: 300px; 
+  padding: 10px;
 }
 
-
-.resume {
+.resume, .Brady, .animals {
   background-color: #fff;
   padding: 2%;
   border-radius: 1em;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
   margin: 2% auto;
   max-width: 800px;
-}
-
-.Brady{
-    background-color: #fff;
-    padding: 2%;
-    border-radius: 1em;
-    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
-    margin: 2% auto;
-    max-width: 800px;
-}
-
-.animals {
-  background-color: #fff;
-  padding: 2%;
-  border-radius: 1em;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
-  margin: 2% auto;
-  max-width: 800px;
+  float: left; /* Added float */
+  clear: both; /* Added to clear floats */
 }
 
 img {
-    display: block;
-    margin: 2% auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 1em;
-    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.3s ease;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 1em;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+img.float-left {
+  float: left; /* Added float */
+  margin-right: 20px; /* Added to create space between the image and text */
+}
+
+img.float-right {
+  float: right; /* Added float */
+  margin-left: 20px; /* Added to create space between the image and text */
 }
 
 img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 iframe {
@@ -110,6 +102,7 @@ iframe {
   margin: 0 auto;
   width: 90%;
 }
+
 
 
 
