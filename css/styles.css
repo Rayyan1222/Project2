@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  background: rgb(181, 137, 214);
-  font-family: 'Roboto', Arial, sans-serif; /* Added Roboto as the primary font */
+  background: linear-gradient(110deg, #6279a5, #edf1f2, #6b86bb);
+  font-family: 'Roboto', 'Arial', sans-serif; /* Added Roboto as the primary font */
   color: #333;
   margin: 0;
   padding: 20px;
 }
 
 h1, h2, h3 {
-  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Arial', sans-serif; /* Specifying Arial as a backup font */
   text-align: center;
 }
 
@@ -39,13 +39,14 @@ nav ul {
 
 li, p {
   list-style-type: none;
-  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Arial', sans-serif; /* Specifying Arial as a backup font */
   text-align: center;
 }
 
 nav ul li {
   display: inline;
   margin-right: 2%;
+  float: right; /* Using float for layout */
 }
 
 nav ul li a {
@@ -54,7 +55,16 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ffd700;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
 }
 
 .fixed-width {
@@ -69,22 +79,11 @@ nav ul li a:hover {
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
   margin: 2% auto;
   max-width: 800px;
-}
-
-.resume {
-  float: left;
-  width: 60%; /* Adjusted width for better layout */
-}
-
-.Brady {
-  float: right;
-  width: 35%; /* Adjusted width for better layout */
+  float: left; /* Using float for layout */
 }
 
 .animals {
-  float: left;
-  clear: both; /* Added to ensure proper clearing */
-  width: 60%; /* Adjusted width for better layout */
+  float: right; /* Using float for layout */
 }
 
 img {
@@ -107,6 +106,7 @@ iframe {
   margin: 0 auto;
   width: 90%;
 }
+
 
 
 
