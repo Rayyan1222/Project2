@@ -69,15 +69,22 @@ nav ul li a:hover {
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
   margin: 2% auto;
   max-width: 800px;
-  float: left; /* Float added for layout */
+}
+
+.resume {
+  float: left;
+  width: 60%; /* Adjusted width for better layout */
 }
 
 .Brady {
-  clear: left; /* Clears the float to ensure proper layout */
+  float: right;
+  width: 35%; /* Adjusted width for better layout */
 }
 
 .animals {
-  float: right; /* Float added for layout */
+  float: left;
+  clear: both; /* Added to ensure proper clearing */
+  width: 60%; /* Adjusted width for better layout */
 }
 
 img {
@@ -100,6 +107,7 @@ iframe {
   margin: 0 auto;
   width: 90%;
 }
+
 
 
 
