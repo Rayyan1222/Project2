@@ -46,7 +46,6 @@ li, p {
 nav ul li {
   display: inline;
   margin-right: 2%;
-  float: right;
 }
 
 nav ul li a {
@@ -91,48 +90,15 @@ nav ul li a:hover {
   max-width: 800px;
 }
 
-#goldfish {
-  border-radius: 4px;
-  padding: 2px;
-  width: 31.25em;
-  height: 18.75em;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s;
-  display: block;
-  margin: 0 auto;
-}
-
-#lion {
-  border-radius: 4px;
-  padding: 2px;
-  width: 31.25em;
-  height: 18.75em;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s;
-  display: block;
-  margin: 0 auto;
-}
-
-#tombrady1 {
-  border-radius: 4px;
-  padding: 2px;
-  width: 31.25em;
-  height: 18.75em;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s;
-  display: block;
-  margin: 0 auto;
-}
-
-#tombrady2 {
-  border-radius: 4px;
-  padding: 2px;
-  width: 31.25em;
-  height: 18.75em;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s;
-  display: block;
-  margin: 0 auto;
+img {
+    display: block;
+    margin: 2% auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 img:hover {
@@ -144,6 +110,7 @@ iframe {
   margin: 0 auto;
   width: 90%;
 }
+
 
 
 
