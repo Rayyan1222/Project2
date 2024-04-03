@@ -43,7 +43,7 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 20px;
-  float: left; /* Added float property */
+  width: 25%
 }
 
 nav ul li a {
