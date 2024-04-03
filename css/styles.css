@@ -24,7 +24,7 @@ h1, h2, h3 {
 
 li, p {
   list-style-type: none;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS',  'Lucida Grande', Lucida Sans, sans-serif;
   text-align: center;
 }
 
