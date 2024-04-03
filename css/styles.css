@@ -46,7 +46,7 @@ li, p {
 nav ul li {
   display: inline;
   margin-right: 2%;
-  float: right;
+  position: fixed;
 }
 
 nav ul li a {
@@ -135,7 +135,7 @@ iframe:hover {
   transform: scale(1.1);
 }
 
-#goldfish {
+#lion {
   border-radius: 4px;
   padding: 2px;
   width: 31.25em;
@@ -146,7 +146,7 @@ iframe:hover {
   margin: 0 auto;
 }
 
-#lion {
+#goldfish {
   border-radius: 4px;
   padding: 2px;
   width: 36.25em;
@@ -157,10 +157,10 @@ iframe:hover {
   margin: 0 auto;
 }
 
-#goldfish:hover {
+#lion:hover {
   transform: scale(1.1);
 }
 
-#lion:hover {
+#goldfish:hover {
   transform: scale(1.1);
 }
