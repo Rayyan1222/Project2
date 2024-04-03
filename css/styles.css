@@ -46,7 +46,6 @@ li, p {
 nav ul li {
   display: inline;
   margin-right: 2%;
-  position: fixed;
 }
 
 nav ul li a {
@@ -91,76 +90,24 @@ nav ul li a:hover {
   max-width: 800px;
 }
 
-#tombrady1 {
-  border-radius: 4px;
-  padding: 2px;
-  width: 31.25em;
-  height: 18.75em;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s;
-  display: block;
-  margin: 0 auto;
+img {
+    display: block;
+    margin: 2% auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
-#tombrady2 {
-  border-radius: 4px;
-  padding: 2px;
-  width: 31.25em;
-  height: 18.75em;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s;
-  display: block;
-  margin: 0 auto;
+img:hover {
+    transform: scale(1.05);
+}
 
 iframe {
-  border-radius: 8px;
-  padding: .1em;
-  width: 25em;
-  height: 12.5em;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s;
   display: block;
   margin: 0 auto;
+  width: 90%;
 }
 
-#tombrady1:hover {
-  transform: scale(1.1);
-}
-
-#tombrady2:hover {
-  transform: scale(1.1);
-}
-
-iframe:hover {
-  transform: scale(1.1);
-}
-
-#lion {
-  border-radius: 4px;
-  padding: 2px;
-  width: 31.25em;
-  height: 18.75em;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s;
-  display: block;
-  margin: 0 auto;
-}
-
-#goldfish {
-  border-radius: 4px;
-  padding: 2px;
-  width: 36.25em;
-  height: 25em;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s;
-  display: block;
-  margin: 0 auto;
-}
-
-#lion:hover {
-  transform: scale(1.1);
-}
-
-#goldfish:hover {
-  transform: scale(1.1);
-}
