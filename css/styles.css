@@ -76,6 +76,6 @@ iframe {
   width: 90%;
 }
 
-iframe: hover {
+iframe:hover {
   transform: scale(1.1);
 }
