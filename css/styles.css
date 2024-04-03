@@ -43,6 +43,7 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 20px;
+  float: left; /* Added float property */
 }
 
 nav ul li a {
@@ -88,8 +89,10 @@ iframe {
   display: block;
   margin: 0 auto;
   width: 90%;
+  position: relative; /* Added position property */
 }
 
 iframe:hover {
   transform: scale(1.1);
 }
+
