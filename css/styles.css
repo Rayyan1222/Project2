@@ -62,6 +62,7 @@ nav ul li a:hover {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  overflow: hidden; /* Ensures content stays within container */
 }
 
 .resume, .Brady, .animals {
@@ -131,4 +132,6 @@ nav ul li a:hover {
 #tombrady2:hover {
   transform: scale(1.05);
 }
+
+
 
