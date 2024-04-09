@@ -89,7 +89,7 @@ nav ul li a:hover {
 }
 
 #goldfish {
-  float: right;
+  float: none;
   margin-left: 2em; /* Adjust margin if needed */
   max-width: 180px;
   max-height: 200px;
