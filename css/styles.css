@@ -62,7 +62,7 @@ nav ul li a:hover {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  overflow: hidden; /* Ensures content stays within container */
+  overflow: hidden; /* Ensure content stays within container */
 }
 
 .resume, .Brady, .animals {
@@ -73,65 +73,21 @@ nav ul li a:hover {
   margin: 20px auto;
 }
 
-#lion {
-  float: left;
-  margin-right: 2em;
-  max-width: 180px;
-  max-height: 200px;
+img {
+  max-width: 100%; /* Ensure images don't exceed container width */
+  height: auto;
+  display: block;
+  margin: 0 auto 20px; /* Center images horizontally and add spacing */
   border-radius: 1em;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-#lion:hover {
+img:hover {
   transform: scale(1.05);
 }
 
-#goldfish {
-  float: left;
-  margin-right: 2em;
-  max-width: 180px;
-  max-height: 200px;
-  border-radius: 1em;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-#goldfish:hover {
-  transform: scale(1.05);
-}
-
-#tombrady1 {
-  float: left;
-  margin-right: 2em;
-  max-width: 180px;
-  max-height: 200px;
-  border-radius: 1em;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-#tombrady1:hover {
-  transform: scale(1.05);
-}
-
-#tombrady2 {
-  float: left;
-  margin-right: 2em;
-  max-width: 180px;
-  max-height: 200px;
-  border-radius: 1em;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-#tombrady2:hover {
-  transform: scale(1.05);
-}
 
 
 
